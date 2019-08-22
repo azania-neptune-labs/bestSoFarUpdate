@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '407109660046275'); 
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+         <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=407109660046275&ev=PageView
+        &noscript=1"/>
+    </noscript>
+<!-- End Facebook Pixel Code -->    
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Distribution Page</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #dd input
+        {
+            width: 75%;
+            margin:0 auto;
+        } 
+    </style>
+
+
+
+
+</head>
+<body style="padding: 1px;">
+
+    <div class="main">
+
+        <div  class="container">
+            <div  class="signup-content">
+                <div class="signup-img">
+                    <img src="images/form-img.jpg">
+                    <div class="signup-img-content" id="down">
+                        <h2>Release now </h2>
+                       <span style ="color: white;"> <marquee behavior="alternate" >Upload your music</marquee> </span>
+                    </div>
+                </div>
+                <div class="signup-form" id="dd">
+                    <form style="text-align: center;" method="POST" class="register-form" id="register-form">
+                        <h1 style="text-align: center;">Artist information</h1><hr><br><br>
+
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">First name</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div><br>
+                                <div class="form-input">
+                                    <label for="last_name" class="required">Last name</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div><br>
+                            </div>
+                            <div class = "form-group">
+                                <div class="form-input">
+                                    <label for="email" class="required">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div><br>
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Phone number</label>
+                                    <input type="text" name="phone_number" id="phone_number" />
+                                </div>
+
+                            </div>
+                            
+                      
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+<div id="duplicater">
+ <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/form-img.jpg" alt="">
+                    <div class="signup-img-content">
+                        <h2>Release now </h2>
+                        <p>Distribute your music and get it mastered !</p>
+                    </div>
+                </div>
+                <div class="signup-form" id="duplicate">
+                    <form method="POST" class="register-form" id="register-form">
+                       <h1 style="text-align: center;">Track information</h1><br><hr><br>
+                        <div class="form-row">
+                           
+                        <div class="form-group">
+                                 <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">Track title</label>
+                                    <input type="text" name="track_title" id="track_title" /><br>
+                                </div>
+                                <div class="form-input">
+                                    <label for="last_name" class="required">Artist (Lead)</label>
+                                    <input type="text" name="artist_name" id="last_name" /><br>
+                                </div>
+                                <div class="form-input">
+                                    <label for="company" class="required">Genre</label>
+                                    <input type="text" name="genre" id="company" /><br>
+                                </div>
+                                <div class="form-input">
+                                    <label for="email" class="required">Featured artist</label>
+                                    <input type="text" name="featured" id="email" /><br>
+                                </div>
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Recording Year</label>
+                                    <input type="text" name="recording_year" id="phone_number" /><br>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                        <label for="meal_preference">Track type</label>
+                                        <a class="form-link">Track detail</a>
+                                    </div>
+                                    <div class="select-list">
+                                        <select name="meal_preference" id="meal_preference">
+                                            <option value="">--Track type--  </option>
+                                            <option value="">Original  </option>
+                                            <option value="">Remix </option>
+                                            <option value="">Cover </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-radio">
+                                    <div class="label-flex">
+                                        <label for="payment">Release Type</label>
+                                        <a  class="form-link">Release Detail</a>
+                                    </div>
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cash" checked>
+                                            <label for="cash">Single</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="cheque">
+                                            <label for="cheque">EP</label>
+                                            <span class="check"></span>
+                                        </div>
+                                        <div class="form-radio-item">
+                                            <input type="radio" name="payment" id="demand">
+                                            <label for="demand">Album</label>
+                                            <span class="check"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <label for="chequeno">Contributor's name</label>
+                                    <input type="text" name="chequeno" id="chequeno" />
+                                </div>
+
+                                <div>
+                                     <label for="meal_preference">Role</label>
+                                     <a class="form-link">Contributor's role</a>
+                                     <select style="width: 100%; height: 45px; font-family: poppins">
+                                     <option>--Select Role--</option>
+                                     <option>Producer</option>
+                                     <option>Writer</option>
+                                     <option>Mixer</option>
+
+
+                                 </select> <br>
+                                 </div><br>
+
+
+                               
+                                <div class="form-input">
+                                        <label for="fileupload">Upload song</label> 
+                                    <input type="file" name="fileupload" value="fileupload" accept="audio/*" id="fileupload">
+                                </div><br>
+
+
+                                 <div class="form-input">
+                                        <label for="fileupload">Upload your cover art</label> 
+                                    <input type="file" name="fileupload" value="fileupload" accept="image/*" id="fileupload">
+                                </div>
+                            </div>
+
+                                <!-------->
+                            </div>
+                        </div>
+                       
+                    
+                    </form>
+                </div>
+            </div>
+        </div></div>
+
+<button id="button" onclick="duplicate()">Click me</button>
+
+    <!--------SIYAH-->
+
+ 
+
+  
+
+    <!--------SIYAH----->
+
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/wnumb/wNumb.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script >
+        var i = 0;
+        var original = document.getElementById('duplicater');
+        function duplicate() {
+            clear()\
+            var clone = original.cloneNode(true); // "deep" clone
+            clone.id = "duplicater" + ++i;
+            original.parentNode.appendChild(clone);
+        }
+
+
+        function clear()
+        {
+            document.getElementById('track_title').value = "";   
+        }
+
+
+
+    </script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
